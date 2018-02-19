@@ -121,7 +121,10 @@
           let warnPos = []
           if (warnings && warnings.length > 0) {
             for (let warning of warnings) {
-              let pos = warning.location[0].index
+              let pos = 0
+              if (warning.location && warning.location.length > 0) {
+                pos = warning.location[0].index
+              }
               warns['' + pos] = warning
               warnPos.push(pos)
             }
