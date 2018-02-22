@@ -47,6 +47,7 @@
       var theme = this.theme || 'chrome'
 
       require('brace/ext/emmet')
+      require('brace/ext/searchbox')
 
       var editor = vm.editor = ace.edit(this.$el)
 
