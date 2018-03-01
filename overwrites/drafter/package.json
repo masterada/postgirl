@@ -1,0 +1,17 @@
+{
+  "name": "drafter",
+  "version": "1.2.0",
+  "description": "Node API Blueprint Parser",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 4"
+  },
+  "author": "Apiary Czech Republic, s.r.o. <support@apiary.io>",
+  "license": "MIT",
+  "dependencies": {
+    "drafter.js": "^2.6.0"
+  },
+  "optionalDependencies": {
+    "protagonist": "^1.6.0"
+  }
+}
